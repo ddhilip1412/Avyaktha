@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Avyaktha</title>
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/grayscale.css" rel="stylesheet">
+		<!-- Custom Fonts -->
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<!-- load jQuery and the plugin -->
+		<script src="js/jquery.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			#carousel-custom {
+			margin: 20px auto;
+			width: 100%;
+			}
+			#carousel-custom .carousel-indicators {
+			margin: 10px 0 0;
+			overflow: auto;
+			position: static;
+			text-align: left;
+			white-space: nowrap;
+			width: 100%;
+			}
+			#carousel-custom .carousel-indicators li {
+			background-color: transparent;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+			display: inline-block;
+			height: auto;
+			margin: 0 !important;
+			width: auto;
+			}
+			.carousel-inner img{
+			display:block;
+			margin:auto;
+			}
+			.carousel-inner .item{
+			background-repeat:no-repeat;
+			background-position: center center;
+						vertical-align: middle;
+			float: none;
+			}
+			#carousel-custom .carousel-indicators li img {
+			display: block;
+			opacity: 0.5;
+			}
+			#carousel-custom .carousel-indicators li.active img {
+			opacity: 1;
+			}
+			#carousel-custom .carousel-indicators li:hover img {
+			opacity: 0.75;
+			}
+			#carousel-custom .carousel-outer {
+			position: relative;
+			}
+		</style>
+	</head>
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					<i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top">
+					<i class="fa fa-home"></i>  <span class="light">Avyaktha</span>
+					</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+					<ul class="nav navbar-nav">
+						<!-- Hidden li included to remove active class from embeds link when scrolled up past embeds section -->
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#embeds">Social Media</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#download">Experience</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<!-- Intro Header -->
+		<header class="intro" style="height:auto; padding-top:125px; padding-bottom:60px;">
+			<div class="intro-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="brand-heading">Avyaktha</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="embeds" class="container content-section text-center" style="padding-top:40px;">
+			<div class="row" style="margin-bottom:20px;">
+				<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+					<div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+						<div class='carousel-outer'>
+							<!-- Wrapper for slides -->
+							<div class='carousel-inner'>
+								<div class='item active'><!--  style="background-image:url('img/home-bg.jpg')"> -->
+									<img src='img/home-bg.jpg' class="img-responsive" alt='' />
+								</div>
+								<div class='item'><!--   style="background-image:url('img/downloads-bg.jpg')"> -->
+									<img src='img/downloads-bg.jpg' alt='' />
+								</div>
+								<div class='item'><!--   style="background-image:url('img/intro-bg.jpg')"> -->
+									<img src='img/intro-bg.jpg' alt='' />
+								</div>
+								<div class='item'><!--   style="background-image:url('img/intro-bg1.jpg')"> -->
+									<img src='img/intro-bg1.jpg' alt='' />
+								</div>
+								<div class='item'>
+									<img src='http://placehold.it/400x200&text=slide5' alt='' />
+								</div>
+								<div class='item'>
+									<img src='http://placehold.it/400x200&text=slide6' alt='' />
+								</div>
+								<div class='item'>
+									<img src='http://placehold.it/400x200&text=slide7' alt='' />
+								</div>
+								<div class='item'>
+									<img src='http://placehold.it/400x200&text=slide8' alt='' />
+								</div>
+								<div class='item'>
+									<img src='http://placehold.it/400x200&text=slide9' alt='' />
+								</div>
+							</div>
+							<!-- Controls -->
+							<a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+							<span class='glyphicon glyphicon-chevron-left'></span>
+							</a>
+							<a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+							<span class='glyphicon glyphicon-chevron-right'></span>
+							</a>
+						</div>
+						<!-- Indicators -->
+						<ol class='carousel-indicators mCustomScrollbar'>
+							<li data-target='#carousel-custom' data-slide-to='0' class='active'><img src='http://placehold.it/100x50&text=slide1' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='1'><img src='http://placehold.it/100x50&text=slide2' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='2'><img src='http://placehold.it/100x50&text=slide3' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='3'><img src='http://placehold.it/100x50&text=slide4' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='4'><img src='http://placehold.it/100x50&text=slide5' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='5'><img src='http://placehold.it/100x50&text=slide6' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='6'><img src='http://placehold.it/100x50&text=slide7' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='7'><img src='http://placehold.it/100x50&text=slide8' alt='' /></li>
+							<li data-target='#carousel-custom' data-slide-to='8'><img src='http://placehold.it/100x50&text=slide9' alt='' /></li>
+						</ol>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="embed-responsive embed-responsive-4by3 img-thumbnail" style="margin-bottom:20px;">
+						<iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/219099582&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					</div>
+					<div class="embed-responsive embed-responsive-16by9 img-thumbnail">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/14PuZVT0krU" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Plugin JavaScript -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+		<!-- Custom Theme JavaScript -->
+		<script src="js/grayscale.js"></script>
+		<script>
+			// Normalize Carousel Heights - pass in Bootstrap Carousel items.
+			$.fn.carouselHeights = function() {
+			
+				var items = $(this), //grab all slides
+					heights = [], //create empty array to store height values
+					tallest; //create variable to make note of the tallest slide
+			
+				var normalizeHeights = function() {
+			
+					items.each(function() { //add heights to array
+						heights.push($(this).height());
+					});
+					tallest = Math.max.apply(null, heights); //cache largest value
+					items.each(function() {
+						//$(this).css('min-height', tallest + 'px');
+						$(this).animate({ 'min-height' : tallest }, 1000).animate({ opacity : 1 }, 1000);
+						
+						var imgChild=$(this).find("img");
+						//alert(imgChild.attr("src"));
+						var imgHeight=imgChild.height();
+						//alert(imgHeight);
+						
+						
+						if(tallest>imgHeight){
+						
+						var paddingToBeAdded=(tallest-imgHeight)/8;
+						//alert(paddingToBeAdded);
+						
+						
+						$(this).css("padding-top",paddingToBeAdded+'px');
+						$(this).css("padding-bottom",paddingToBeAdded+'px');
+						}
+					});
+				};
+			
+				normalizeHeights();
+			
+				$(window).on('resize orientationchange', function() {
+					//reset vars
+					tallest = 0;
+					heights.length = 0;
+			
+					items.each(function() {
+						//$(this).css('min-height', '0'); //reset min-height
+						//$(this).animate({ 'min-height' : 0 }, 1000).animate({ opacity : 1 }, 1000);
+					});
+					normalizeHeights(); //run it again 
+				});
+			
+			};
+			
+			jQuery(function($) {
+				$(window).on('load', function() {
+					$('#carousel-custom .item').carouselHeights();
+				});
+			});
+			
+		</script>
+	</body>
+</html>
